@@ -33,8 +33,8 @@ Para executar a aplicação localmente, siga os passos abaixo:
 1. Clone este repositório:
 
 ```bash
-  git clone https://github.com/Fernanda-Kipper/smartfit-frontend-challenge.git
-  cd smartfit-frontend-challenge
+  git clone https://github.com/walissun/Desafio2-restic36.git
+  cd Desafio2-restic36.git
 
 ```
 
