@@ -2,10 +2,8 @@
 
 ![Smart Fit](./src/assets/images/svg/logo.svg)
 
-Este repositório contém a solução para o desafio de [Front-end da Smart Fit](https://github.com/bioritmo/front-end-code-challenge-smartsite/tree/master) desenvolvido durante o vídeo em meu canal. Eu utilizei o framework Angular para desenvolver a aplicação, e você pode assistir o vídeo onde resolvi o desafio em meu canal [aqui](https://www.youtube.com/watch?v=ozZXMkp8MnQ).
-
-## 📖 Sobre o desafio
-
+Descrição do Projeto
+O projeto “SmartFits” é uma aplicação inovadora que permite aos usuários visualizar os horários de funcionamento das academias SmartFit em três períodos: manhã, tarde e noite. Além disso, a aplicação fornece instruções detalhadas sobre como utilizar os serviços oferecidos, bem como os endereços e nomes das academias disponíveis.
 A Smart Fit, atuando no segmento de fitness, passou por várias mudanças durante a pandemia. Foi necessário desenvolver uma página para buscar unidades abertas ou fechadas para consulta e reserva. 
 
 Neste desafio, foi implementado as seguintes funcionalidades de acordo com as regras de negócio definidas:
@@ -13,15 +11,16 @@ Neste desafio, foi implementado as seguintes funcionalidades de acordo com as re
 ### Funcionalidades
 [x] Carrega unidades através do arquivo JSON [locations.json](https://test-frontend-developer.s3.amazonaws.com/data/locations.json) utilizando o método `GET`.
 [x] Busca por todas as unidades.
-[x] Busca por unidades com filtros.
 [x] Previsão do número de resultados encontrados.
 [x] Listagem das unidades encontradas após a busca.
+[x] Exibe a mensagem "Nenhuma unidade encontrada" quando não há resultados.
+[x] Valida e exibe os ícones corretos de acordo com o status da unidade.
 
-### Regras de negócio
-- Filtra unidades abertas ou fechadas.
-- Filtra unidades por período de funcionamento.
-- Exibe a mensagem "Nenhuma unidade encontrada" quando não há resultados.
-- Valida e exibe os ícones corretos de acordo com o status da unidade.
+Possíveis melhorias futuras.
+[x] Busca por unidades com filtros.
+[x] Filtra unidades abertas ou fechadas.
+[x] Filtra unidades por período de funcionamento.
+
 
 ## 🎨 Layout
 
@@ -51,5 +50,3 @@ Para executar a aplicação localmente, siga os passos abaixo:
   npm start
 ```
 
-## Licença
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais detalhes.
