@@ -1,4 +1,4 @@
-# Desafio Frontend - Smart Fit
+# Desafio 02 RESTIC36 - Smart Fit
 
 ![Smart Fit](./src/assets/images/svg/logo.svg)
 
