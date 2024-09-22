@@ -1,0 +1,8 @@
+{
+    "posts": [
+      { "id": 1, "title": "Manhã" },
+      { "id": 2, "title": "Tarde" },
+      { "id": 2, "title": "Noite" }
+    ]
+  }
+  
